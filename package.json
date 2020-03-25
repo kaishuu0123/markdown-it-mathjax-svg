@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-mathjax-svg-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/kaishuu0123/markdown-it-mathjax-svg-next.git",
   "description": "MathJax SVG plugin for markdown-it.",
   "license": "MIT",
