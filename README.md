@@ -17,7 +17,7 @@ The `opts` object can contain:
 
 Name              | Description                                                    | Default
 ------------------|----------------------------------------------------------------|-----------------------------------
-`marker` | marker of blockdiag block | ```
+`marker` | marker of mathjax block | ```
 
 ## Runkit Example
-* XXXX
+* https://runkit.com/embed/fnh43kvgbbko
