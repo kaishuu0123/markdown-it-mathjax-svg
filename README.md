@@ -1,16 +1,16 @@
-# markdown-it-mathjax-svg
+# markdown-it-mathjax-svg-next
 
 ## Install
 
 ```
-npm install --save markdown-it-mathjax-svg
+npm install --save markdown-it-mathjax-svg-next
 ```
 
 ## Usage
 
 ```js
   const md = require('markdown-it')()
-    .use(require('markdown-it-mathjax-svg'), opts)
+    .use(require('markdown-it-mathjax-svg-next'), opts)
 ```
 
 The `opts` object can contain:

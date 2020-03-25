@@ -6,9 +6,9 @@ const config = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'markdown-it-mathjax-svg.js',
+    filename: 'markdown-it-mathjax-svg-next.js',
     libraryTarget: 'umd',
-    library: 'MarkdownItMathJaxSVG',
+    library: 'MarkdownItMathJaxSVGNext',
     globalObject: 'this'
   },
   module: {

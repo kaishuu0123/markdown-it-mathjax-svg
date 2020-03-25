@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-mathjax-svg",
-  "version": "1.0.3",
-  "homepage": "https://github.com/kaishuu0123/markdown-it-mathjax-svg.git",
+  "name": "markdown-it-mathjax-svg-next",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kaishuu0123/markdown-it-mathjax-svg-next.git",
   "description": "MathJax SVG plugin for markdown-it.",
   "license": "MIT",
   "author": {
@@ -18,9 +18,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaishuu0123/markdown-it-mathjax-svg.git"
+    "url": "https://github.com/kaishuu0123/markdown-it-mathjax-svg-next.git"
   },
-  "main": "dist/markdown-it-mathjax-svg.js",
+  "main": "dist/markdown-it-mathjax-svg-next.js",
   "scripts": {
     "build": "webpack --config webpack.config.babel.js --progress --color",
     "test": "mocha --require intelli-espower-loader --require babel-register --recursive test"

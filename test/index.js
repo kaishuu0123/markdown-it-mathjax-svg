@@ -1,9 +1,9 @@
 import assert from 'power-assert'
 import markdownIt from 'markdown-it'
-import markdownItMathJaxSVG from '../dist/markdown-it-mathjax-svg.js'
+import markdownItMathJaxSVGNext from '../dist/markdown-it-mathjax-svg-next.js'
 
 const mdi = markdownIt()
-mdi.use(markdownItMathJaxSVG)
+mdi.use(markdownItMathJaxSVGNext)
 
 assert(mdi.render('# Hello world').trim() === '<h1>Hello world</h1>', '# Hello world')
 assert(mdi.render('Hello world').trim() === '<p>Hello world</p>', 'Hello world')
@@ -51,7 +51,7 @@ it('pre block', () => {
 });
 
 it('change Marker', () => {
-  mdi.use(markdownItMathJaxSVG, { marker: ':::'});
+  mdi.use(markdownItMathJaxSVGNext, { marker: ':::'});
   var render_text = mdi.render(`::: mathjax
   {
     A -> B;
